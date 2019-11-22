@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_add_books"
+            android:icon="@drawable/ic_add_books"
+            android:title="Add New Books" />
+        <item
+            android:id="@+id/nav_purchaseVoucher"
+            android:icon="@drawable/ic_invoice"
+            android:title="PurchaseVoucher" />
+        <item
+            android:id="@+id/nav_saleVoucher"
+            android:icon="@drawable/ic_invoice"
+            android:title="SaleVoucher" />
+        <item
+            android:id="@+id/purchaseHistory"
+            android:icon="@drawable/ic_history"
+            android:title="PurchaseHistory" />
+        <item
+            android:id="@+id/saleHistory"
+            android:icon="@drawable/ic_history"
+            android:title="SaleHistory" />
+        <item
+            android:id="@+id/bookStock"
+            android:icon="@drawable/ic_stock"
+            android:title="BookStock" />
+        <item
+            android:id="@+id/Logout"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Logout" />
+    </group>
+
+</menu>
